@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--注册登录中用到的color-->
+    <color name="color_title_bar_login">#f28c63</color>
+    <color name="color_dialog_login">#55696969</color>
+    <color name="color_edittext_bg_login">#F5F5F5</color>
+    <color name="color_edittext_text_login">#464646</color>
+
+    <!--积分记录页面（没有数据）的提示文本字体颜色-->
+    <color name="color_text_nodata_tip">#696969</color>
+
+    <!--输入框下面的线颜色及未输入文本字体颜色-->
+    <color name="color_login_editview_line_no">#55696969</color>
+    <!--输入框下面的线颜色及输入文本字体颜色-->
+    <color name="color_login_editview_line_yes">#696969</color>
+    <!--登录可点击状态，忘记密码，登录方式等的字体颜色-->
+    <color name="color_login_btn_yes">#bbff6400</color>
+    <!--登录不可点击状态的按钮-->
+    <color name="color_login_btn_no">#55ff6400</color>
+
+    <color name="color_btn_yes">#55c2f5</color>
+    <color name="color_btn_no">#55199DE9</color>
+
+
+    <!--兑换中心用到的color-->
+    <color name="color_default_piechart">#77696969</color>
+    <color name="color_sign_piechart">#27B7B7</color>
+    <color name="color_task_piechart">#F07F61</color>
+    <color name="color_share_piechart">#BFDA7A</color>
+    <color name="color_integral_text">#202020</color>
+    <color name="color_layout_bg">#EFEFF4</color>
+    <color name="color_week_month_bg">#FA696C</color>
+    <color name="color_highlight_linechart">#9944CC</color>
+    <color name="color_rank_text">#F1CB47</color>
+    <color name="color_apply_exchange">#FFA439</color>
+    <color name="color_btn_exchange">#55c2f5</color>
+
+    <!--广告样例展示  不可点击的遮罩-->
+    <color name="color_noclick_bg">#23000000</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="material_white_500">#ff6400</color>
+    <color name="colorLightgrey">#eeeeee</color>
+    <color name="material_white_300">#f9f9f9</color>
+    <color name="colorDark">#202020</color><!--黑色-->
+    <color name="colorWhite">#ffffff</color><!--白色-->
+    <!--copy from zhaopai-->
+    <color name="color_text_black">#000000</color>
+    <color name="color_text_red">#EA254B</color>
+    <color name="color_textlq_red">#EA4F68</color>
+    <color name="color_textlq_blue">#009DE1</color>
+    <color name="color_text_white">#FFFFFF</color>
+    <color name="color_text_ZangLan">#677689</color>
+    <color name="color_text_darkhas">#696969</color>
+    <color name="color_text_balckhas">#494949</color>
+    <color name="color_text_BlueHas">#55c2f5</color>
+    <color name="color_text_blue">#55c2f5</color>
+    <color name="color_text_darkblue">#3c5482</color>
+    <color name="color_bg_line_white">#99FFFFFF</color>
+    <color name="color_text_lightgray">#FCFCFC</color>
+    <color name="color_bg_line_lighthas">#cccccc</color>
+    <color name="color_bg_line_middlehas">#cacaca</color>
+    <color name="color_bg_line_darkhas">#696969</color>
+    <color name="color_bg_line_black">#000000</color>
+    <color name="color_bg_line_has">#999999</color>
+    <color name="popup_bg">#4c1b00</color>
+    <color name="personalcenter_color1">#ffffffff</color>
+    <color name="divider_color">#ffcdcdcd</color>
+    <color name="personalcenter_bg_press_color">#ffe6e6e6</color>
+
+    <!-- <color name="color_top_bar">#e87e39</color> -->
+    <color name="color_top_bar">#EF8054</color>
+    <color name="color_top_bar_a">#ed835b</color>
+    <color name="color_dropdown_text">#C99065</color>
+    <color name="color_top_bar_trans">#7fef8054</color>
+    <color name="color_btn_ditu_trans">#7f121212</color>
+
+
+    <!--最新规定统一颜色-->
+    <color name="color_list_divider">#d9d9d9</color><!--列表分割线-->
+    <color name="color_task_name">#333333</color><!--任务名称；签到、问卷调查、我的推荐、更多...-->
+    <color name="color_point_name">#666666</color><!--点位名称、距离、点位数；任务类型优选，执行按钮颜色...-->
+    <color name="color_seach_backg">#efefef</color><!--搜索页标题栏背景色-->
+    <color name="color_yellow_clean">#c99065</color><!--清空搜索历史文字颜色-->
+    <color name="color_yellow_history">#ff6400</color><!--搜索历史文字颜色-->
+
+
+    <color name="color_driver">#e5e5e5</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_text_gray">#8F8F8F</color>
+    <color name="color_trans_gray">#ff909090</color>
+
+
+    <color name="color_bar_gray">#eeeeee</color>
+    <color name="red">#f5c662</color>
+    <color name="blue">#96cff7</color>
+    <color name="color_light_gray">#eeeeee</color>
+    <color name="color_green">#22ac38</color>
+
+    <color name="color_red">#bb282f</color>
+    <color name="color_gray_bg">#979797</color>
+    <color name="color_gray_light">#f4f4f4</color>
+    <color name="home_hint">#969696</color><!--提示文字-->
+    <color name="color_orange">#ff6400</color><!--用在相机侧滑提示文字-->
+    <color name="color_pewter">#4b4b4b</color><!--用于相机侧滑点位描述-->
+
+    <color name="text_award_yellow">#DBCE56</color> <!--奖励金额文字-->
+    <color name="backgrand_white">#F5F5F5</color><!--背景白-->
+    <color name="backgrand_black">#000000</color><!--背景黑-->
+    <color name="title_bg">#ff333333</color>
+
+    <color name="province_line_border">#C7C7C7</color>
+
+    <color name="user_info_top">#f28c63</color>><!--侧边栏头部的颜色-->
+    <color name="user_help_art_color">#f61010</color><!--帮助与反馈中的在线客服字体颜色-->
+    <color name="user_help_art_bgcolor">#ffffff</color><!--帮助与反馈中的在线客服背景颜色-->
+    <color name="user_help_bgcolor">#f8f8f8</color><!--帮助与反馈中的背景颜色-->
+    <color name="user_help_met_color">#2f2f2f</color><!--帮助与反馈中的背景颜色-->
+    <color name="help_met_one_color_tv">#595959</color><!--帮助与反馈中遇到问题中字体的颜色-->
+    <color name="help_yijian_font_color">#a7a7a7</color><!--一键反馈中输入框提示的字体的颜色-->
+    <color name="help_remen_font_color">#dc2c2c</color><!--热门问题中字体的颜色-->
+    <color name="help_more_font_color">#666666</color><!--热门问题中更多字体的颜色-->
+    <color name="finish_task_listone">#191919</color><!--已完成的任务中第一行字体颜色-->
+    <color name="finish_task_listtwo">#7f7f7f</color><!--已完成的任务中第二行字体颜色-->
+    <color name="finish_task_listthree">#898989</color><!--已完成的任务中第三行字体颜色-->
+
+    <color name="user_info_main_font">#222222</color><!--个人中心的字体-->
+    <color name="user_info_like_font">#6a6a6a</color><!--喜欢关注的字体-->
+    <color name="user_info_mine_font">#333333</color><!--设置字体-->
+    <color name="user_info_set_color">#e9e8e8</color><!--设置边框的颜色-->
+
+    <color name="help_detail_pro_font">#1c1c1c</color><!--帮助与反馈热门问题中问题详情的字体-->
+    <color name="help_detail_pro_font2">#7b7b7b</color><!--帮助与反馈热门问题中问题详情的字体2-->
+
+    <color name="user_like_btn">#fed3bb</color><!--选择喜欢关注的按钮时的颜色-->
+    <color name="task_type_select">#666666</color><!--任务中心类型和优选的字体的颜色-->
+
+    <color name="help_button_no_color">#84C1FF</color><!--帮助与反馈中一键反馈未选中的颜色-->
+
+
+
+    <!--录音需要颜色值-->
+
+    <color name="circle_color">#f28c63</color>
+
+    <color name="half_transparent">#94000000</color>
+
+    <color name="audio_list_bg">#FFF4F4F4</color>
+
+
+
+</resources>

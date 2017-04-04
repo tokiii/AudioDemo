@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <RelativeLayout
+        android:id="@+id/rl_title_container"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:padding="10dp"
+            android:id="@+id/iv_back"
+            android:src="@mipmap/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="语音录制"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/rl_title_container"
+        android:id="@+id/rl_record_anim"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/black">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/ll_head_lines_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/ll_container"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="bottom"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/ll_circle_container"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="bottom"
+                android:orientation="horizontal"></LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_below="@id/rl_record_anim"
+        android:id="@+id/view_white_line"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_record_seek"
+        android:layout_below="@id/view_white_line"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_record_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00" />
+
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_record_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="00:00:00" />
+
+        <SeekBar
+            android:layout_centerVertical="true"
+            android:id="@+id/seek_record"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:layout_toLeftOf="@id/tv_record_end"
+            android:layout_toRightOf="@id/tv_record_start"
+            android:progressDrawable="@drawable/layer_progress"
+            android:thumb="@drawable/shape_circle"
+            android:progress="100" />
+
+        <View
+            android:visibility="visible"
+            android:id="@+id/seek_cover"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_toLeftOf="@id/tv_record_end"
+            android:layout_toRightOf="@id/tv_record_start"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/rl_record_seek"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tv_record_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新录音"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/tv_record_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017/3/24"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="播放页" />
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btn_record"
+            android:background="@mipmap/ready_record"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+
+        <Button
+            android:background="@mipmap/record_btn_circle_list_bg"
+            android:id="@+id/btn_record_list"
+            android:text="录音\n列表"
+            android:textSize="11sp"
+            android:textColor="@android:color/white"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+
+        <Button
+            android:textColor="@android:color/darker_gray"
+            android:background="@null"
+            android:id="@+id/btn_record_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="完成" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
